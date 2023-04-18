@@ -1,4 +1,5 @@
-module.export = {       // module.export because we need to to use these file in another file 
+require('dotenv').config();
+module.exports = {       // module.export because we need to to use these file in another file 
     HOST:'localhost',
     USER:'root',
     PASSWORD:process.env.PASSWORD,

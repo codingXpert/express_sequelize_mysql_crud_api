@@ -22,7 +22,7 @@ const addProduct = async(req ,res) => {
 
 // 2. get all products
 const getAllProducts = async(req,res) => {
-    let products = await Products.findAll({
+    let products = await Product.findAll({
         // attributes: [
         //     'title',       //will return only the listed details, if sated attributes
         //     'price',
