@@ -3,7 +3,7 @@ module.exports = {       // module.export because we need to to use these file i
     HOST:'localhost',
     USER:'root',
     PASSWORD:process.env.PASSWORD,
-    DB:'node_sequelize_api',
+    DB:'sequelize',
     dialect:'mysql',
     pool:{
         max:5,  //max connection should be 5 & min should be 0
