@@ -1,6 +1,6 @@
 module.exports = (sequelize , DataTypes) => {
     const Review = sequelize.define('review' , {
-        price: {
+        rating: {
             type: DataTypes.INTEGER
         },
         descripton: {

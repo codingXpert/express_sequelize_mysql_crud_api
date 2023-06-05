@@ -8,8 +8,8 @@ var corsOptions = {
 
 // simple middlewares
 app.use(cors(corsOptions));
-app.use(express.json());
-app.use(express.urlencoded({ extended:true }));
+app.use(express.json());                           // to receive data in json format
+app.use(express.urlencoded({ extended:true }));   // to receive data from body
 
 //routers
 const router = require('./routes/productRouter');
